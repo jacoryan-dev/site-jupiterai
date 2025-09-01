@@ -1,9 +1,10 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
-import FeatureCard from "./components/FeatureCard"
 import Features from "./components/Features"
 import Documentation from "./components/Documentation"
 import Footer from "./components/Footer"
+
+
 const App = () => {
   return (
     <>
@@ -38,4 +39,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
