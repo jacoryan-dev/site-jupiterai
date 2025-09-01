@@ -1,12 +1,53 @@
-# React + Vite
+# JupiterAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+JupiterAI é um site moderno para apresentação e integração de um bot inteligente que revoluciona o atendimento ao cliente, automatizando processos e oferecendo respostas rápidas e precisas.
 
-Currently, two official plugins are available:
+## Acesse o site
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto está disponível em produção pelo domínio:  
+👉 [jupiterai.me](https://jupiterai.me)
 
-## Expanding the ESLint configuration
+## Principais Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Apresentação do bot JupiterAI
+- Documentação de comandos básicos e FAQ
+- Links diretos para contato, suporte e redes sociais
+- Interface responsiva e moderna desenvolvida com React e Vite
+
+## Comandos do Bot
+
+- `/documento` – Criar documento base com texto personalizado
+- `/relatorio` – Inserir texto e imagens em marcadores específicos
+- `/noticias` – Receber as 5 principais notícias do G1
+- `/help` – Exibir o menu de ajuda
+- Envie um áudio para transcrição automática
+- Mensagens comuns são respondidas por inteligência artificial
+
+## Tecnologias Utilizadas
+
+- React
+- Javascript
+- Vite
+- TailwindCSS
+- Deploy via Cloudflare
+
+## Como rodar localmente
+
+```bash
+git clone https://github.com/jacoryan-dev/site-jupiterai.git
+cd site-jupiterai
+npm install
+npm run dev
+```
+
+## Estrutura do Projeto
+
+- `src/components` – Componentes React organizados por funcionalidade
+- `public` – Imagens, ícones e arquivos estáticos
+- `index.html` – Arquivo principal do site
+
+## Contato e Suporte
+
+- [LinkedIn](https://www.linkedin.com/in/jac%C3%B3-ryan-a6a19a315/)
+- [GitHub](https://github.com/jacoryan-dev)
+- Suporte via Telegram: [@jacoryan](https://t.me/jacoryan)
