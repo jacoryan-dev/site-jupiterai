@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Documentation = () => {
   const [activeTab, setActiveTab] = useState("comandos");
@@ -131,8 +132,8 @@ const Documentation = () => {
                 Nossa documentação completa irá guiá-lo através de cada passo,
                 desde a configuração inicial até funcionalidades avançadas.
               </p>
-              <a
-                href="#"
+              <Link
+                to="/documentacao"
                 className="inline-flex items-center bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:shadow-lg transform hover:scale-105 transition-all duration-200"
               >
                 Ler a Documentação Completa
@@ -149,7 +150,7 @@ const Documentation = () => {
                     d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
 
             <div className="bg-gradient-to-r from-cyan-500 to-blue-600 rounded-xl p-8 text-white">
