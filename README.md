@@ -51,7 +51,7 @@ npm run dev
 
 - `src/components` – Componentes React organizados por funcionalidade
 - `public` – Imagens, ícones e arquivos estáticos
-- `index.html` – Arquivo principal do site
+- `src/App.jsx` – Arquivo principal do site
 
 ## 📞 Contato e Suporte
 
